@@ -1,0 +1,144 @@
+body {
+    font-family: "Overpass", sans-serif;
+}
+.bannerBg
+{
+    background: linear-gradient(to top, #316483, #457c9d);
+    height:195px;
+    width: 100%;
+    h4
+    {
+        font-size:32px;
+        color:#fff;
+        font-weight: bold;
+        padding-top:80px;
+    }
+    img
+    {
+        padding-top:26px;
+    }
+}
+.StillGotAnyQueries
+{
+    margin-top:35px;
+    padding-top:40px;
+    padding-bottom:60px;
+    .mt-50
+    {
+        margin-top:50px;
+    }
+    .lable
+    {
+        font-size:16px;
+        color:#457c9d;
+        font-weight: bold;
+        text-transform: uppercase;
+        .fas
+        {
+            font-size:14px;
+            padding-right:5px;
+        }
+    }
+    .phoneNum
+    {
+        font-size:40px;
+        color:#262626;
+        margin-bottom:-8px;
+    }
+    .timing
+    {
+        font-size:16px;
+        color:#6d7278;
+    }
+    .emailAddress
+    {
+        font-size:24px;
+        color:#262626;
+        line-height:30px;
+    }
+    .contactUsForm
+    {
+        label
+        {
+            font-size:12px;
+            color:#949494;
+            margin-bottom:0px;
+            margin-top:16px;
+        }
+        input
+        {
+            border: none;
+            border-bottom-color: #ccc;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-radius:0px;
+            font-size:14px;
+            color:#262626;
+            padding-top:0px;
+            margin-top:0px;
+            padding-left:0px;
+        }
+        ::placeholder
+        {
+            font-size:14px;
+            color:#262626;
+        }
+        select
+        {
+            border: none;
+            border-bottom-color: #ccc;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-radius:0px;
+            font-size:14px;
+            color:#262626;
+            padding-top:0px;
+            margin-top:0px;
+            padding-left:0px;
+        }
+        .content
+        {
+            padding-bottom: 60px;
+            p
+            {
+                font-size:14px;
+                color:#262626;
+            }
+            hr
+            {
+                margin-bottom:10px;
+            }
+            em
+            {
+                font-size:14px;
+                color:#6d7278;
+                margin-top:0px;
+                a
+                {
+                    font-size:14px;
+                    color:#e63a46;
+                }
+            }
+            .SendRequestBtn
+            {
+                width:156px;
+                height:auto;
+                background-color: #e63a46;
+                padding:8px;
+                color:#fff;
+                margin-top:24px;
+                
+
+            }
+        }
+    }
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+
