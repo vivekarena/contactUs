@@ -136,4 +136,130 @@ body {
   outline: 0;
   box-shadow: none;
 }
+
+@media screen and (max-width: 768px) {
+  .bannerBg {
+    background: linear-gradient(to top, #316483, #457c9d);
+    height: 195px;
+    width: 100%;
+  }
+  .bannerBg h4 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 37px;
+  }
+  .bannerBg img {
+    padding-top: 26px;
+    width: 180px;
+  }
+  .StillGotAnyQueries {
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  .StillGotAnyQueries .mt-50 {
+    margin-top: 50px;
+  }
+  .StillGotAnyQueries .lable {
+    font-size: 16px;
+    color: #457c9d;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .StillGotAnyQueries .lable .fas {
+    font-size: 14px;
+    padding-right: 5px;
+  }
+  .StillGotAnyQueries .phoneNum {
+    font-size: 40px;
+    color: #262626;
+    margin-bottom: -8px;
+  }
+  .StillGotAnyQueries .timing {
+    font-size: 16px;
+    color: #6d7278;
+  }
+  .StillGotAnyQueries .emailAddress {
+    font-size: 20px;
+    color: #262626;
+    line-height: 30px;
+  }
+  .StillGotAnyQueries .contactUsForm {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #dcdcdc;
+    margin-top: 30px;
+    padding-top: 30px;
+  }
+  .StillGotAnyQueries .contactUsForm label {
+    font-size: 12px;
+    color: #949494;
+    margin-bottom: 0px;
+    margin-top: 16px;
+  }
+  .StillGotAnyQueries .contactUsForm input {
+    border: none;
+    border-bottom-color: #ccc;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-radius: 0px;
+    font-size: 14px;
+    color: #262626;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+  }
+  .StillGotAnyQueries .contactUsForm ::placeholder {
+    font-size: 14px;
+    color: #262626;
+  }
+  .StillGotAnyQueries .contactUsForm select {
+    border: none;
+    border-bottom-color: #ccc;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-radius: 0px;
+    font-size: 14px;
+    color: #262626;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+  }
+  .StillGotAnyQueries .contactUsForm .content {
+    padding-bottom: 60px;
+  }
+  .StillGotAnyQueries .contactUsForm .content p {
+    font-size: 14px;
+    color: #262626;
+  }
+  .StillGotAnyQueries .contactUsForm .content hr {
+    margin-bottom: 10px;
+  }
+  .StillGotAnyQueries .contactUsForm .content em {
+    font-size: 14px;
+    color: #6d7278;
+    margin-top: 0px;
+  }
+  .StillGotAnyQueries .contactUsForm .content em a {
+    font-size: 14px;
+    color: #e63a46;
+  }
+  .StillGotAnyQueries .contactUsForm .content .SendRequestBtn {
+    width: 156px;
+    height: auto;
+    background-color: #e63a46;
+    padding: 8px;
+    color: #fff;
+    margin-top: 24px;
+    display: block;
+  }
+  .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
